@@ -1,0 +1,15 @@
+2021-05-12 10:29:37,564 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-12 10:29:37,584 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-12 10:29:37,587 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-12 10:29:37,591 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-12 10:29:39,577 [9] ERROR MyBBS.Controllers.HomeController - 日志记录测试
+2021-05-12 10:55:51,829 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-12 10:55:51,842 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-12 10:55:51,846 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-12 10:55:51,851 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-12 11:33:01,138 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-12 11:33:01,152 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-12 11:33:01,155 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-12 11:33:01,159 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-12 11:33:03,466 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/12 11:33:03
+2021-05-12 11:33:08,793 [9] ERROR MyBBS.Controllers.HomeController - 日志记录测试

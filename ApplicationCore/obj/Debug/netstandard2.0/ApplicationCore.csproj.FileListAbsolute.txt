@@ -1,0 +1,9 @@
+C:\Users\linyong\source\repos\MyBBS\ApplicationCore\bin\Debug\netstandard2.0\ApplicationCore.deps.json
+C:\Users\linyong\source\repos\MyBBS\ApplicationCore\bin\Debug\netstandard2.0\ApplicationCore.dll
+C:\Users\linyong\source\repos\MyBBS\ApplicationCore\obj\Debug\netstandard2.0\ApplicationCore.csprojAssemblyReference.cache
+C:\Users\linyong\source\repos\MyBBS\ApplicationCore\obj\Debug\netstandard2.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\linyong\source\repos\MyBBS\ApplicationCore\obj\Debug\netstandard2.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\linyong\source\repos\MyBBS\ApplicationCore\bin\Debug\netstandard2.0\ApplicationCore.pdb
+C:\Users\linyong\source\repos\MyBBS\ApplicationCore\obj\Debug\netstandard2.0\ApplicationCore.dll
+C:\Users\linyong\source\repos\MyBBS\ApplicationCore\obj\Debug\netstandard2.0\ApplicationCore.pdb
+C:\Users\linyong\source\repos\MyBBS\ApplicationCore\obj\Debug\netstandard2.0\ApplicationCore.csproj.CoreCompileInputs.cache

@@ -1,0 +1,515 @@
+2021-05-13 10:32:44,242 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 10:32:44,253 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 10:32:44,256 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 10:32:44,259 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 10:32:53,597 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 10:32:53
+2021-05-13 10:32:54,296 [5] ERROR MyBBS.Controllers.HomeController - 日志记录测试
+2021-05-13 10:33:26,751 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/account Ip:::1 DateTime:2021/5/13 10:33:26
+2021-05-13 10:33:27,090 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 10:33:27
+2021-05-13 11:16:13,978 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 11:16:14,004 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 11:16:14,009 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 11:16:14,022 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 11:16:24,954 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 11:16:24
+2021-05-13 11:16:26,489 [4] ERROR MyBBS.Controllers.HomeController - 日志记录测试
+2021-05-13 11:16:32,416 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/account Ip:::1 DateTime:2021/5/13 11:16:32
+2021-05-13 11:16:33,052 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 11:16:33
+2021-05-13 11:16:44,497 [10] ERROR MyBBS.Filter.GlobalExceptionFilter - 系统发生异常System.InvalidOperationException: Session has not been configured for this application or request.
+   at Microsoft.AspNetCore.Http.DefaultHttpContext.get_Session()
+   at MyBBS.Controllers.AccountController.GetCaptchaImage() in C:\Users\linyong\source\repos\MyBBS\MyBBS\Controllers\AccountController.cs:line 28
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2021-05-13 11:18:07,919 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 11:18:07,935 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 11:18:07,939 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 11:18:07,942 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 11:18:11,403 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 11:18:11
+2021-05-13 11:18:17,767 [10] ERROR MyBBS.Filter.GlobalExceptionFilter - 系统发生异常System.Exception: ceshi ex
+   at MyBBS.Controllers.HomeController..ctor(ILogger`1 logger) in C:\Users\linyong\source\repos\MyBBS\MyBBS\Controllers\HomeController.cs:line 20
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2021-05-13 11:30:13,120 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 11:30:13,147 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 11:30:13,151 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 11:30:13,154 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 11:30:15,524 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 11:30:15
+2021-05-13 11:30:15,609 [10] ERROR MyBBS.Controllers.HomeController - 日志记录测试
+2021-05-13 11:30:19,963 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/account Ip:::1 DateTime:2021/5/13 11:30:19
+2021-05-13 11:30:20,058 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 11:30:20
+2021-05-13 11:30:35,388 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 11:30:35,403 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 11:30:35,412 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 11:30:35,424 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 11:30:37,284 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 11:30:37
+2021-05-13 11:30:37,363 [9] ERROR MyBBS.Controllers.HomeController - 日志记录测试
+2021-05-13 11:30:40,298 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/account Ip:::1 DateTime:2021/5/13 11:30:40
+2021-05-13 11:30:40,385 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 11:30:40
+2021-05-13 11:32:36,587 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 11:32:36,601 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 11:32:36,606 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 11:32:36,611 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 11:32:42,705 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 11:32:42
+2021-05-13 11:32:42,786 [10] ERROR MyBBS.Controllers.HomeController - 日志记录测试
+2021-05-13 11:32:48,225 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/account Ip:::1 DateTime:2021/5/13 11:32:48
+2021-05-13 11:32:48,344 [11] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 11:32:48
+2021-05-13 11:37:40,255 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 11:37:40,268 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 11:37:40,271 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 11:37:40,275 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 11:37:42,210 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 11:37:42
+2021-05-13 11:37:42,296 [5] ERROR MyBBS.Controllers.HomeController - 日志记录测试
+2021-05-13 14:49:14,068 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 14:49:14,098 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 14:49:14,102 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 14:49:14,106 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 14:49:20,416 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 14:49:20
+2021-05-13 14:49:20,615 [9] ERROR MyBBS.Controllers.HomeController - 日志记录测试
+2021-05-13 14:54:12,634 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 14:54:12,647 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 14:54:12,650 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 14:54:12,654 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 14:54:14,626 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 14:54:14
+2021-05-13 14:54:55,922 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 14:54:55,934 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 14:54:55,938 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 14:54:55,942 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 14:54:57,790 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 14:54:57
+2021-05-13 14:54:57,876 [4] ERROR MyBBS.Controllers.HomeController - 日志记录测试
+2021-05-13 14:56:36,193 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 14:56:36,212 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 14:56:36,215 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 14:56:36,219 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 14:56:38,043 [12] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 14:56:38
+2021-05-13 14:56:38,137 [12] ERROR MyBBS.Controllers.HomeController - 日志记录测试
+2021-05-13 14:58:40,480 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 14:58:40,505 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 14:58:40,509 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 14:58:40,564 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 14:58:40
+2021-05-13 14:58:40,660 [4] ERROR MyBBS.Controllers.HomeController - 日志记录测试
+2021-05-13 14:58:40,993 [8] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/favicon.ico Ip:::1 DateTime:2021/5/13 14:58:40
+2021-05-13 14:58:53,145 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 14:58:53
+2021-05-13 14:58:53,152 [4] ERROR MyBBS.Controllers.HomeController - 日志记录测试
+2021-05-13 14:58:53,366 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/favicon.ico Ip:::1 DateTime:2021/5/13 14:58:53
+2021-05-13 15:04:05,366 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 15:04:05,388 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 15:04:05,392 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 15:04:05,409 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 15:04:05
+2021-05-13 15:04:05,494 [5] ERROR MyBBS.Controllers.HomeController - 日志记录测试
+2021-05-13 15:06:05,985 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 15:06:06,002 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 15:06:06,011 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 15:06:06,040 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 15:06:06
+2021-05-13 15:06:06,139 [4] ERROR MyBBS.Controllers.HomeController - 日志记录测试
+2021-05-13 15:09:24,313 [16] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 15:09:24
+2021-05-13 15:09:24,333 [16] ERROR MyBBS.Controllers.HomeController - 日志记录测试
+2021-05-13 15:09:24,382 [16] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/favicon.ico Ip:::1 DateTime:2021/5/13 15:09:24
+2021-05-13 15:09:26,052 [16] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 15:09:26
+2021-05-13 15:09:26,062 [16] ERROR MyBBS.Controllers.HomeController - 日志记录测试
+2021-05-13 15:09:26,098 [17] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/favicon.ico Ip:::1 DateTime:2021/5/13 15:09:26
+2021-05-13 15:09:43,066 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 15:09:43,082 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 15:09:43,086 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 15:09:43,112 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 15:09:43
+2021-05-13 15:09:43,195 [9] ERROR MyBBS.Controllers.HomeController - 日志记录测试
+2021-05-13 15:09:43,412 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Home/Main/ Ip:::1 DateTime:2021/5/13 15:09:43
+2021-05-13 15:11:24,639 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 15:11:24,651 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 15:11:24,655 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 15:11:24,676 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 15:11:24
+2021-05-13 15:11:24,762 [10] ERROR MyBBS.Controllers.HomeController - 日志记录测试
+2021-05-13 15:11:24,992 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Home/Main/ Ip:::1 DateTime:2021/5/13 15:11:24
+2021-05-13 15:20:35,420 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 15:20:35,433 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 15:20:35,437 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 15:20:35,440 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 15:20:38,068 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 15:20:38
+2021-05-13 15:20:38,230 [9] ERROR MyBBS.Controllers.HomeController - 日志记录测试
+2021-05-13 15:20:38,396 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Home/Main/ Ip:::1 DateTime:2021/5/13 15:20:38
+2021-05-13 15:29:26,817 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 15:29:26,829 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 15:29:26,833 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 15:29:26,837 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 15:29:33,766 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 15:29:33
+2021-05-13 15:29:34,158 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:34
+2021-05-13 15:29:34,459 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:34
+2021-05-13 15:29:34,464 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:34
+2021-05-13 15:29:34,473 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:34
+2021-05-13 15:29:34,556 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:34
+2021-05-13 15:29:34,642 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:34
+2021-05-13 15:29:34,654 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:34
+2021-05-13 15:29:34,754 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:34
+2021-05-13 15:29:34,917 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:34
+2021-05-13 15:29:35,092 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:35
+2021-05-13 15:29:35,162 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:35
+2021-05-13 15:29:35,272 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:35
+2021-05-13 15:29:35,348 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:35
+2021-05-13 15:29:35,407 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:35
+2021-05-13 15:29:35,452 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:35
+2021-05-13 15:29:35,526 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:35
+2021-05-13 15:29:35,573 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:35
+2021-05-13 15:29:35,636 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:35
+2021-05-13 15:29:35,700 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:35
+2021-05-13 15:29:36,984 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:36
+2021-05-13 15:29:36,989 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:36
+2021-05-13 15:29:37,173 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:37
+2021-05-13 15:29:37,218 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:37
+2021-05-13 15:29:37,303 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:37
+2021-05-13 15:29:37,453 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:37
+2021-05-13 15:29:37,515 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:37
+2021-05-13 15:29:37,571 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:37
+2021-05-13 15:29:37,688 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:37
+2021-05-13 15:29:37,756 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:37
+2021-05-13 15:29:37,801 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:37
+2021-05-13 15:29:37,925 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:37
+2021-05-13 15:29:37,973 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:37
+2021-05-13 15:29:38,018 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:38
+2021-05-13 15:29:38,073 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:38
+2021-05-13 15:29:38,201 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:38
+2021-05-13 15:29:38,334 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:38
+2021-05-13 15:29:38,476 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:38
+2021-05-13 15:29:38,592 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:38
+2021-05-13 15:29:38,700 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:38
+2021-05-13 15:29:43,759 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:43
+2021-05-13 15:29:52,914 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:52
+2021-05-13 15:29:52,923 [14] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:52
+2021-05-13 15:29:52,948 [14] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:52
+2021-05-13 15:29:53,005 [16] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:53
+2021-05-13 15:29:53,054 [17] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:29:53
+2021-05-13 15:30:45,530 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 15:30:45,543 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 15:30:45,546 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 15:30:45,550 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 15:30:47,808 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 15:30:47
+2021-05-13 15:30:47,917 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:47
+2021-05-13 15:30:47,942 [12] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:47
+2021-05-13 15:30:47,951 [12] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:47
+2021-05-13 15:30:47,957 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:47
+2021-05-13 15:30:47,979 [12] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:47
+2021-05-13 15:30:48,087 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:48
+2021-05-13 15:30:48,164 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:48
+2021-05-13 15:30:48,224 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:48
+2021-05-13 15:30:48,403 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:48
+2021-05-13 15:30:48,563 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:48
+2021-05-13 15:30:48,580 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:48
+2021-05-13 15:30:48,641 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:48
+2021-05-13 15:30:48,733 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:48
+2021-05-13 15:30:48,768 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:48
+2021-05-13 15:30:48,858 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:48
+2021-05-13 15:30:48,913 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:48
+2021-05-13 15:30:49,024 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:49
+2021-05-13 15:30:49,092 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:49
+2021-05-13 15:30:49,141 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:49
+2021-05-13 15:30:50,211 [12] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:50
+2021-05-13 15:30:50,224 [12] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:50
+2021-05-13 15:30:50,288 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:50
+2021-05-13 15:30:50,342 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:50
+2021-05-13 15:30:50,433 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:50
+2021-05-13 15:30:50,485 [12] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:50
+2021-05-13 15:30:50,600 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:50
+2021-05-13 15:30:50,758 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:50
+2021-05-13 15:30:50,847 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:50
+2021-05-13 15:30:50,937 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:50
+2021-05-13 15:30:50,966 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:50
+2021-05-13 15:30:51,032 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:51
+2021-05-13 15:30:51,157 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:51
+2021-05-13 15:30:51,212 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:51
+2021-05-13 15:30:51,267 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:51
+2021-05-13 15:30:51,433 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:51
+2021-05-13 15:30:51,550 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:51
+2021-05-13 15:30:51,652 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:51
+2021-05-13 15:30:51,701 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:51
+2021-05-13 15:30:51,808 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:51
+2021-05-13 15:30:56,864 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:56
+2021-05-13 15:30:56,875 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:56
+2021-05-13 15:30:56,955 [12] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:56
+2021-05-13 15:30:57,091 [14] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:57
+2021-05-13 15:30:57,126 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:30:57
+2021-05-13 15:32:06,631 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 15:32:06,644 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 15:32:06,647 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 15:32:06,650 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 15:32:08,724 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 15:32:08
+2021-05-13 15:32:08,817 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:08
+2021-05-13 15:32:08,837 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:08
+2021-05-13 15:32:08,842 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:08
+2021-05-13 15:32:08,847 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:08
+2021-05-13 15:32:08,852 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:08
+2021-05-13 15:32:08,887 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:08
+2021-05-13 15:32:08,945 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:08
+2021-05-13 15:32:09,052 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:09
+2021-05-13 15:32:09,115 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:09
+2021-05-13 15:32:09,233 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:09
+2021-05-13 15:32:09,296 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:09
+2021-05-13 15:32:09,352 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:09
+2021-05-13 15:32:09,415 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:09
+2021-05-13 15:32:09,532 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:09
+2021-05-13 15:32:09,585 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:09
+2021-05-13 15:32:09,673 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:09
+2021-05-13 15:32:09,725 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:09
+2021-05-13 15:32:09,816 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:09
+2021-05-13 15:32:09,883 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:09
+2021-05-13 15:32:10,951 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:10
+2021-05-13 15:32:10,959 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:10
+2021-05-13 15:32:10,978 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:10
+2021-05-13 15:32:11,056 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:11
+2021-05-13 15:32:11,107 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:11
+2021-05-13 15:32:11,158 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:11
+2021-05-13 15:32:11,273 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:11
+2021-05-13 15:32:11,406 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:11
+2021-05-13 15:32:11,528 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:11
+2021-05-13 15:32:11,604 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:11
+2021-05-13 15:32:11,664 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:11
+2021-05-13 15:32:11,758 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:11
+2021-05-13 15:32:11,898 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:11
+2021-05-13 15:32:12,010 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:12
+2021-05-13 15:32:12,206 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:12
+2021-05-13 15:32:12,379 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:12
+2021-05-13 15:32:12,519 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:12
+2021-05-13 15:32:12,610 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:12
+2021-05-13 15:32:12,674 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:12
+2021-05-13 15:32:12,893 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:12
+2021-05-13 15:32:17,954 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:17
+2021-05-13 15:32:17,962 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:17
+2021-05-13 15:32:18,065 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:18
+2021-05-13 15:32:18,100 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:18
+2021-05-13 15:32:18,158 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:32:18
+2021-05-13 15:35:38,103 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 15:35:38,119 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 15:35:38,122 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 15:35:38,126 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 15:35:40,129 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 15:35:40
+2021-05-13 15:35:40,222 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:40
+2021-05-13 15:35:40,271 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:40
+2021-05-13 15:35:40,327 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:40
+2021-05-13 15:35:40,370 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:40
+2021-05-13 15:35:40,424 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:40
+2021-05-13 15:35:40,471 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:40
+2021-05-13 15:35:40,521 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:40
+2021-05-13 15:35:40,555 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:40
+2021-05-13 15:35:40,603 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:40
+2021-05-13 15:35:40,688 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:40
+2021-05-13 15:35:40,738 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:40
+2021-05-13 15:35:40,777 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:40
+2021-05-13 15:35:40,839 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:40
+2021-05-13 15:35:40,989 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:40
+2021-05-13 15:35:41,130 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:41
+2021-05-13 15:35:41,181 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:41
+2021-05-13 15:35:41,272 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:41
+2021-05-13 15:35:41,318 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:41
+2021-05-13 15:35:41,371 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:41
+2021-05-13 15:35:42,439 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:42
+2021-05-13 15:35:42,446 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:42
+2021-05-13 15:35:42,513 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:42
+2021-05-13 15:35:42,610 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:42
+2021-05-13 15:35:42,738 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:42
+2021-05-13 15:35:42,798 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:42
+2021-05-13 15:35:42,897 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:42
+2021-05-13 15:35:42,937 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:42
+2021-05-13 15:35:42,976 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:42
+2021-05-13 15:35:43,024 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:43
+2021-05-13 15:35:43,072 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:43
+2021-05-13 15:35:43,122 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:43
+2021-05-13 15:35:43,229 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:43
+2021-05-13 15:35:43,323 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:43
+2021-05-13 15:35:43,406 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:43
+2021-05-13 15:35:43,471 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:43
+2021-05-13 15:35:43,555 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:43
+2021-05-13 15:35:43,685 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:43
+2021-05-13 15:35:43,788 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:43
+2021-05-13 15:35:43,836 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:35:43
+2021-05-13 15:36:21,903 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 15:36:21,943 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 15:36:21,948 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 15:36:21,952 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 15:36:23,622 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 15:36:23
+2021-05-13 15:36:23,702 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:23
+2021-05-13 15:36:23,721 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:23
+2021-05-13 15:36:23,728 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:23
+2021-05-13 15:36:23,733 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:23
+2021-05-13 15:36:23,759 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:23
+2021-05-13 15:36:23,820 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:23
+2021-05-13 15:36:23,871 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:23
+2021-05-13 15:36:23,993 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:23
+2021-05-13 15:36:24,039 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:24
+2021-05-13 15:36:24,130 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:24
+2021-05-13 15:36:24,176 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:24
+2021-05-13 15:36:24,222 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:24
+2021-05-13 15:36:24,280 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:24
+2021-05-13 15:36:24,397 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:24
+2021-05-13 15:36:24,527 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:24
+2021-05-13 15:36:24,622 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:24
+2021-05-13 15:36:24,674 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:24
+2021-05-13 15:36:24,763 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:24
+2021-05-13 15:36:24,809 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:24
+2021-05-13 15:36:25,878 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:25
+2021-05-13 15:36:25,907 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:25
+2021-05-13 15:36:26,072 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:26
+2021-05-13 15:36:26,122 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:26
+2021-05-13 15:36:26,204 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:26
+2021-05-13 15:36:26,346 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:26
+2021-05-13 15:36:26,389 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:26
+2021-05-13 15:36:26,447 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:26
+2021-05-13 15:36:26,541 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:26
+2021-05-13 15:36:26,584 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:26
+2021-05-13 15:36:26,643 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:26
+2021-05-13 15:36:26,699 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:26
+2021-05-13 15:36:26,747 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:26
+2021-05-13 15:36:26,857 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:26
+2021-05-13 15:36:26,904 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:26
+2021-05-13 15:36:27,024 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:27
+2021-05-13 15:36:27,141 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:27
+2021-05-13 15:36:27,279 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:27
+2021-05-13 15:36:27,378 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:27
+2021-05-13 15:36:27,523 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:27
+2021-05-13 15:36:44,680 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 15:36:44,702 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 15:36:44,707 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 15:36:44,711 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 15:36:46,899 [11] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 15:36:46
+2021-05-13 15:36:47,049 [11] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:47
+2021-05-13 15:36:47,065 [11] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:47
+2021-05-13 15:36:47,072 [11] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:47
+2021-05-13 15:36:47,076 [11] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:47
+2021-05-13 15:36:47,081 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:47
+2021-05-13 15:36:47,086 [11] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:47
+2021-05-13 15:36:47,126 [11] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:47
+2021-05-13 15:36:47,233 [11] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:47
+2021-05-13 15:36:47,302 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:47
+2021-05-13 15:36:47,346 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:47
+2021-05-13 15:36:47,377 [8] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:47
+2021-05-13 15:36:47,420 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:47
+2021-05-13 15:36:47,424 [8] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:47
+2021-05-13 15:36:47,429 [8] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:47
+2021-05-13 15:36:47,489 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:47
+2021-05-13 15:36:47,612 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:47
+2021-05-13 15:36:47,720 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:47
+2021-05-13 15:36:47,789 [11] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:47
+2021-05-13 15:36:47,840 [11] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:47
+2021-05-13 15:36:48,927 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:48
+2021-05-13 15:36:48,939 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:48
+2021-05-13 15:36:48,954 [8] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:48
+2021-05-13 15:36:48,989 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:48
+2021-05-13 15:36:49,038 [8] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:49
+2021-05-13 15:36:49,089 [8] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:49
+2021-05-13 15:36:49,131 [8] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:49
+2021-05-13 15:36:49,174 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:49
+2021-05-13 15:36:49,260 [11] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:49
+2021-05-13 15:36:49,358 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:49
+2021-05-13 15:36:49,412 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:49
+2021-05-13 15:36:49,417 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:49
+2021-05-13 15:36:49,466 [11] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:49
+2021-05-13 15:36:49,471 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:49
+2021-05-13 15:36:49,476 [11] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:49
+2021-05-13 15:36:49,480 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:49
+2021-05-13 15:36:49,485 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:49
+2021-05-13 15:36:49,490 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:49
+2021-05-13 15:36:49,495 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:49
+2021-05-13 15:36:49,574 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:36:49
+2021-05-13 15:37:44,957 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 15:37:44,969 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 15:37:44,972 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 15:37:44,975 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 15:37:47,335 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 15:37:47
+2021-05-13 15:37:47,421 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 15:37:47
+2021-05-13 15:37:47,731 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 15:37:47
+2021-05-13 16:01:35,542 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 16:01:35,555 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 16:01:35,558 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 16:01:35,563 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 16:01:41,464 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 16:01:41
+2021-05-13 16:01:41,584 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 16:01:41
+2021-05-13 16:01:41,906 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 16:01:41
+2021-05-13 16:02:23,451 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 16:02:23
+2021-05-13 16:02:24,644 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 16:02:24
+2021-05-13 16:02:49,949 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 16:02:49
+2021-05-13 17:31:00,173 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 17:31:00,228 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 17:31:00,235 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 17:31:00,238 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 17:31:04,163 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 17:31:04
+2021-05-13 17:31:04,251 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 17:31:04
+2021-05-13 17:31:04,701 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 17:31:04
+2021-05-13 17:31:20,869 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/SignIn/ Ip:::1 DateTime:2021/5/13 17:31:20
+2021-05-13 17:31:21,368 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 17:31:21
+2021-05-13 17:31:21,376 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 17:31:21
+2021-05-13 17:31:21,426 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 17:31:21
+2021-05-13 17:34:58,090 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 17:34:58,103 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 17:34:58,108 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 17:34:58,119 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 17:35:00,086 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 17:35:00
+2021-05-13 17:35:00,179 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 17:35:00
+2021-05-13 17:35:00,435 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 17:35:00
+2021-05-13 17:35:16,451 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 17:35:16
+2021-05-13 17:35:19,290 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 17:35:19
+2021-05-13 17:35:27,498 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/SignIn/ Ip:::1 DateTime:2021/5/13 17:35:27
+2021-05-13 17:35:27,742 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 17:35:27
+2021-05-13 17:35:27,748 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 17:35:27
+2021-05-13 17:35:27,811 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 17:35:27
+2021-05-13 17:35:55,090 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/SignIn/ Ip:::1 DateTime:2021/5/13 17:35:55
+2021-05-13 17:36:04,314 [20] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 17:36:04
+2021-05-13 17:36:04,327 [18] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 17:36:04
+2021-05-13 17:36:04,424 [18] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 17:36:04
+2021-05-13 17:36:51,359 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/SignIn/ Ip:::1 DateTime:2021/5/13 17:36:51
+2021-05-13 17:36:51,382 [26] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 17:36:51
+2021-05-13 17:36:51,393 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 17:36:51
+2021-05-13 17:36:51,449 [30] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 17:36:51
+2021-05-13 17:38:46,474 [33] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 17:38:46
+2021-05-13 17:38:46,587 [41] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 17:38:46
+2021-05-13 17:38:46,871 [33] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/favicon.ico Ip:::1 DateTime:2021/5/13 17:38:46
+2021-05-13 17:38:52,159 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/SignIn/ Ip:::1 DateTime:2021/5/13 17:38:52
+2021-05-13 17:38:54,886 [49] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/home/index/ Ip:::1 DateTime:2021/5/13 17:38:54
+2021-05-13 17:38:54,905 [47] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 17:38:54
+2021-05-13 17:38:54,997 [33] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 17:38:54
+2021-05-13 17:39:28,510 [37] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 17:39:28
+2021-05-13 17:39:28,561 [42] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 17:39:28
+2021-05-13 17:39:28,752 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/favicon.ico Ip:::1 DateTime:2021/5/13 17:39:28
+2021-05-13 17:39:29,400 [52] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 17:39:29
+2021-05-13 17:39:29,470 [46] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 17:39:29
+2021-05-13 17:39:29,652 [52] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/favicon.ico Ip:::1 DateTime:2021/5/13 17:39:29
+2021-05-13 17:39:29,835 [37] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 17:39:29
+2021-05-13 17:39:29,869 [54] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 17:39:29
+2021-05-13 17:39:30,051 [42] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/favicon.ico Ip:::1 DateTime:2021/5/13 17:39:30
+2021-05-13 17:39:30,107 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 17:39:30
+2021-05-13 17:39:30,135 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 17:39:30
+2021-05-13 17:39:30,330 [46] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/favicon.ico Ip:::1 DateTime:2021/5/13 17:39:30
+2021-05-13 17:40:01,297 [37] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 17:40:01
+2021-05-13 17:40:01,347 [47] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 17:40:01
+2021-05-13 17:40:01,552 [37] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/favicon.ico Ip:::1 DateTime:2021/5/13 17:40:01
+2021-05-13 17:40:13,973 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 17:40:13,986 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 17:40:13,989 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 17:40:13,993 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 17:40:16,250 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 17:40:16
+2021-05-13 17:40:16,338 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 17:40:16
+2021-05-13 17:40:16,606 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 17:40:16
+2021-05-13 17:40:26,464 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/SignIn/ Ip:::1 DateTime:2021/5/13 17:40:26
+2021-05-13 17:40:26,710 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 17:40:26
+2021-05-13 17:40:26,720 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 17:40:26
+2021-05-13 17:40:26,761 [11] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 17:40:26
+2021-05-13 17:43:04,887 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-13 17:43:04,901 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-13 17:43:04,905 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-13 17:43:04,908 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-13 17:43:07,059 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 17:43:07
+2021-05-13 17:43:07,145 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/13 17:43:07
+2021-05-13 17:43:07,422 [13] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/13 17:43:07
+2021-05-13 17:43:13,192 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/SignIn/ Ip:::1 DateTime:2021/5/13 17:43:13
+2021-05-13 17:43:13,262 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 17:43:13
+2021-05-13 17:43:21,506 [5] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/SignIn/ Ip:::1 DateTime:2021/5/13 17:43:21
+2021-05-13 17:43:21,515 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/13 17:43:21

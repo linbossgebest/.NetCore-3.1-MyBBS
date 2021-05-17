@@ -1,0 +1,29 @@
+2021-05-14 10:39:40,630 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-14 10:39:40,643 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-14 10:39:40,646 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-14 10:39:40,649 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-14 10:39:47,238 [11] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/14 10:39:47
+2021-05-14 10:39:47,582 [11] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/14 10:39:47
+2021-05-14 10:40:36,211 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-14 10:40:36,224 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-14 10:40:36,227 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-14 10:40:36,230 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-14 10:40:38,102 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/14 10:40:38
+2021-05-14 10:40:38,195 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/14 10:40:38
+2021-05-14 10:40:38,665 [9] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/14 10:40:38
+2021-05-14 10:40:45,437 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/SignIn/ Ip:::1 DateTime:2021/5/14 10:40:45
+2021-05-14 10:40:45,927 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/14 10:40:45
+2021-05-14 10:44:28,782 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2021-05-14 10:44:28,795 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-14 10:44:28,799 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-14 10:44:28,802 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\linyong\source\repos\MyBBS\MyBBS
+2021-05-14 10:44:31,644 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/14 10:44:31
+2021-05-14 10:44:31,734 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/14 10:44:31
+2021-05-14 10:44:31,984 [12] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/14 10:44:31
+2021-05-14 10:44:43,084 [12] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/14 10:44:43
+2021-05-14 10:44:47,778 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/SignIn/ Ip:::1 DateTime:2021/5/14 10:44:47
+2021-05-14 10:44:48,033 [7] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/ Ip:::1 DateTime:2021/5/14 10:44:48
+2021-05-14 10:44:48,161 [7] ERROR MyBBS.Controllers.HomeController - 日志记录测试
+2021-05-14 10:44:48,228 [4] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Home/Main/ Ip:::1 DateTime:2021/5/14 10:44:48
+2021-05-14 10:45:04,824 [10] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/Index Ip:::1 DateTime:2021/5/14 10:45:04
+2021-05-14 10:45:04,884 [15] INFO  MyBBS.Middleware.RequestIpMiddleware - Url:/Account/GetCaptchaImage Ip:::1 DateTime:2021/5/14 10:45:04
